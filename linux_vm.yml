@@ -28,9 +28,6 @@
       resource_group: myResourceGroup
       name: myVM
       vm_size: Standard_DS1_v2
-      admin_username: azureuser
-      ssh_password_enabled: true
-      no_log: true
       network_interfaces: myNIC
       image:
         offer: CentOS
